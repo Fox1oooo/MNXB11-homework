@@ -30,16 +30,7 @@ int main(int argc, char *argv[]) {
 
     course_name_length = sum(course_name);
     
-    //while (true) {
-     // var6 += course_name[var7++];
-      //if (var7 >= static_cast<int>(course_name.size())) {
-        //break;
-      //}
-    //}
-    //if ((course_name_length ^ letter1 * 3) << (program_size & 0x1f) == numbers) {
-    //  std::cout << "Correct!" << std::endl;
-    //} else {
-    //  std::cout << "Wrong!" << std::endl;
+   
 
     if (checkCondition(course_name_length, letter1, program_size, numbers)){
         std::cout <<"Correct!" << std::endl;
@@ -51,7 +42,7 @@ int main(int argc, char *argv[]) {
   return 0;
 }
 
-//write loop into fuction what the function to take the course name as a string as an agrument
+
 
 
 
