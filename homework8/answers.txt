@@ -1,0 +1,7 @@
+What is the difference between struct and class?
+struct members default to public
+class members default to private
+
+
+Why do we need our class to be derived from the TObject?
+for memory reasons and so that it will work with root

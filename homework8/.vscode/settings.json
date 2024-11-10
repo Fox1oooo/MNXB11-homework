@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "rootlogon.C": "cpp",
+        "iostream": "cpp",
+        "new": "cpp"
+    }
+}
