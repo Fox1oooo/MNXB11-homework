@@ -153,5 +153,5 @@ log "Filtering on only negative temperatures, writing to $FILTER_FILTERFILENAME_
 awk '$3 < 0 {print $0}' $CLEANER_BAREDATAFILENAME > $FILTER_FILTERFILENAME_ONLYNEGATIVE
 
 FILTER_FILTERFILENAME_ONLY24TH="24th_$FILTER_FILTEREDFILENAME"
-log "Filtering on only measurements taken on the 24th, writing to $Filter_FILTERFILENAME_ONLY24TH"
-grep '-24\-\-' $CLEANER_BAREDATAFILENAME > $FILTER_FILTEREDFILENAME_ONLY24TH
+log "Filtering on only measurements taken on the 24th, writing to $FILTER_FILTERFILENAME_ONLY24TH"
+grep '\-\-24' $CLEANER_BAREDATAFILENAME > $FILTER_FILTERFILENAME_ONLY24TH
